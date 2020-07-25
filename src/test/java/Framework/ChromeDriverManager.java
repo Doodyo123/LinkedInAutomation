@@ -21,7 +21,7 @@ public class ChromeDriverManager extends DriverManager {
 		
 		options.setExperimentalOption("prefs", prefs);
 		
-		driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
 	}
 
 }

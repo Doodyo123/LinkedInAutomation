@@ -26,4 +26,10 @@ public abstract class PageBase {
 		
 		return new Select(element);
 	}
+	
+	protected String getCurrentUrl() {
+		
+		return driver.getCurrentUrl();
+		
+	}
 }
