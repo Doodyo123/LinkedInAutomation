@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17750" started-at="2020-08-28T21:43:11 PDT" finished-at="2020-08-28T21:43:28 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17750" started-at="2020-08-28T21:43:11 PDT" finished-at="2020-08-28T21:43:28 PDT">
+      <class name="Tests.HomePageTest">
+        <test-method status="PASS" signature="readSettings(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.HomePageTest@436e852b]" name="readSettings" is-config="true" duration-ms="31" started-at="2020-08-28T21:43:11 PDT" finished-at="2020-08-28T21:43:11 PDT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readSettings -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.HomePageTest@436e852b]" name="setup" is-config="true" duration-ms="4733" started-at="2020-08-28T21:43:11 PDT" finished-at="2020-08-28T21:43:15 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="canSignIn()[pri:0, instance:Tests.HomePageTest@436e852b]" name="canSignIn" duration-ms="12127" started-at="2020-08-28T21:43:15 PDT" finished-at="2020-08-28T21:43:28 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canSignIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.HomePageTest@436e852b]" name="tearDown" is-config="true" duration-ms="795" started-at="2020-08-28T21:43:28 PDT" finished-at="2020-08-28T21:43:28 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

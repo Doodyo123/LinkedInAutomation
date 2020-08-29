@@ -35,7 +35,7 @@ public class HomePageTest extends LinkedInTestBase{
 	@Test
 	public void canSignIn() {
 		String expectedName = "Derick Ho";
-		String expectedUrl = "https://www.linkedin.com/feed/?trk=homepage-basic_signin-form_submit";
+		
 		String email;
 		String password;
 		try {
@@ -44,7 +44,7 @@ public class HomePageTest extends LinkedInTestBase{
 			
 			HomePageObject homePage = new HomePageObject(driver, baseUrl);
 			
-			String actualUrl = homePage
+			String actualName = homePage
 			.navigate()
 			.inputEmail(email)
 			.inputPassword(password)
@@ -53,7 +53,7 @@ public class HomePageTest extends LinkedInTestBase{
 			.getAllWindows()
 			.handleNewWindow();
 			
-			Assert.assertEquals(expectedUrl, actualUrl);
+			Assert.assertEquals(expectedName, actualName);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

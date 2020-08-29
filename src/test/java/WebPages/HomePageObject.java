@@ -1,7 +1,9 @@
 package WebPages;
 
+import java.util.List;
 import java.util.Set;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -71,7 +73,10 @@ public class HomePageObject extends PageBase{
 		for(String handle : allWindowHandles) {
 			driver.switchTo().window(handle);
 		}
-		return driver.getCurrentUrl();
+		String name = driver.findElement(By.cssSelector("div[class='profile-rail-card__actor-link t-16 t-black t-bold']")).getText();
+		
+		
+		return name;
 	}
 	
 
